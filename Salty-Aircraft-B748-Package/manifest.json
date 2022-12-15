@@ -10,7 +10,7 @@
     }
   ],
   "content_type": "AIRCRAFT",
-  "title": "Salty 747-8",
+  "title": "Horizon Simulations B747-8",
   "manufacturer": "Boeing",
   "creator": "Salty Simulations, Marcioart121BR , DeathActual, nicottine, Kairi, TJC.Aviation",
   "minimum_game_version": "1.10.6",
@@ -20,6 +20,6 @@
       "OlderHistory": ""
     }
   },
-  "package_version": "1.2",
-  "total_package_size": "00000000001415061142"
+  "package_version": "1.3",
+  "total_package_size": "00000000001415165657"
 }
