@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModelInfo>
 	<LODS>
 		<!-- Highest LOD -->
@@ -26,18 +26,30 @@
 		<!-- 	9	:	the left wing engine pivot node furthest from the center 			-->
 		<!-- 	10	:	the right wing engine pivot node closest to the center 				-->
 		<!-- 	11	:	the right wing engine pivot node furthest from the center 			-->
-		<Node>WING_BONE_LEFT_01</Node> <!-- the left wing bone closest to the center -->
-		<Node>WING_BONE_LEFT_02</Node> <!-- in between -->
-		<Node>WING_BONE_LEFT_03</Node> <!-- in between -->
-		<Node>WING_BONE_LEFT_04</Node> <!-- the left wing bone furthest from the center -->
-		<Node>WING_BONE_RIGHT_01</Node> <!-- the right wing bone closest to the center -->
-		<Node>WING_BONE_RIGHT_02</Node> <!-- in between -->
-		<Node>WING_BONE_RIGHT_03</Node> <!-- in between -->
-		<Node>WING_BONE_RIGHT_04</Node> <!-- the right wing bone furthest from the center -->
-		<Node>Engine_PIVOT_LEFT_1</Node> <!-- the left wing engine pivot node closest to the center -->
-		<Node>Engine_PIVOT_LEFT_2</Node> <!-- the left wing engine pivot node furthest from the center -->
-		<Node>Engine_PIVOT_RIGHT_1</Node> <!-- the right wing engine pivot node closest to the center -->
-		<Node>Engine_PIVOT_RIGHT_2</Node> <!-- the right wing engine pivot node furthest from the center -->
+		<Node>WING_BONE_LEFT_01</Node>
+		<!-- the left wing bone closest to the center -->
+		<Node>WING_BONE_LEFT_02</Node>
+		<!-- in between -->
+		<Node>WING_BONE_LEFT_03</Node>
+		<!-- in between -->
+		<Node>WING_BONE_LEFT_04</Node>
+		<!-- the left wing bone furthest from the center -->
+		<Node>WING_BONE_RIGHT_01</Node>
+		<!-- the right wing bone closest to the center -->
+		<Node>WING_BONE_RIGHT_02</Node>
+		<!-- in between -->
+		<Node>WING_BONE_RIGHT_03</Node>
+		<!-- in between -->
+		<Node>WING_BONE_RIGHT_04</Node>
+		<!-- the right wing bone furthest from the center -->
+		<Node>Engine_PIVOT_LEFT_1</Node>
+		<!-- the left wing engine pivot node closest to the center -->
+		<Node>Engine_PIVOT_LEFT_2</Node>
+		<!-- the left wing engine pivot node furthest from the center -->
+		<Node>Engine_PIVOT_RIGHT_1</Node>
+		<!-- the right wing engine pivot node closest to the center -->
+		<Node>Engine_PIVOT_RIGHT_2</Node>
+		<!-- the right wing engine pivot node furthest from the center -->
 	</NodeAnimation>
 	<Behaviors>
 		<Include ModelBehaviorFile="Asobo\Common.xml"/>
@@ -45,28 +57,20 @@
 		<Include ModelBehaviorFile="Salty\Index.xml"/>
 		<Include Path="Salty\Engines.xml"/>
 		<Include RelativeFile="747_8I_FX.xml"/>
-    
-        <Component ID="GEARS">
+		<Component ID="GEARS">
 			<UseTemplate Name="ASOBO_GEAR_Center_Template">
 				<ANIM_NAME>c_gear</ANIM_NAME>
 			</UseTemplate>
-                        <UseTemplate Name="ASOBO_GEAR_Center_Template">
-			        <ANIM_NAME>c_gear2</ANIM_NAME>
-		        </UseTemplate>
+
 			<UseTemplate Name="ASOBO_GEAR_Back_Template">
 				<ANIM_NAME>b_gear</ANIM_NAME>
 				<ID>1</ID>
 			</UseTemplate>
-                        <UseTemplate Name="ASOBO_GEAR_Center_Template">
-			        <ANIM_NAME>b_gear2</ANIM_NAME>
-                                <ID>1</ID>
-		        </UseTemplate>
+
 			<UseTemplate Name="ASOBO_GEAR_Left_Template">
 				<ANIM_NAME>l_gear</ANIM_NAME>
 			</UseTemplate>
-                        <UseTemplate Name="ASOBO_GEAR_Left_Template">
-			        <ANIM_NAME>l_gear2</ANIM_NAME>
-		        </UseTemplate>
+
 			<UseTemplate Name="ASOBO_GEAR_Right_Template">
 				<ANIM_NAME>r_gear</ANIM_NAME>
 				<!-- ANIM EVENTS -->
@@ -74,13 +78,7 @@
 				<NORMALIZED_TIME>0.5</NORMALIZED_TIME>
 				<DIRECTION>Both</DIRECTION>
 			</UseTemplate>
-                        <UseTemplate Name="ASOBO_GEAR_Right_Template">
-			        <ANIM_NAME>r_gear2</ANIM_NAME>
-			        <!-- ANIM EVENTS -->
-			        <ANIM_EVENT_EFFECT_NAME>CAM_LANDINGGEARS</ANIM_EVENT_EFFECT_NAME>
-			        <NORMALIZED_TIME>0.5</NORMALIZED_TIME>
-			        <DIRECTION>Both</DIRECTION>
-		        </UseTemplate>
+
 			<UseTemplate Name="ASOBO_GEAR_Center_Tire_Template">
 				<ANIM_NAME>c_tire_key</ANIM_NAME>
 				<NODE_ID_STILL>LANDINGGEAR_Front_Wheel_Still_Center</NODE_ID_STILL>
@@ -139,10 +137,7 @@
 				<ANIM_NAME>rudder_percent_key</ANIM_NAME>
 				<USE_INTEGRATED_TRIM>True</USE_INTEGRATED_TRIM>
 			</UseTemplate>
-                        <UseTemplate Name="ASOBO_HANDLING_Rudder_Template">
-			        <ANIM_NAME>RUDDER_LIVERYDECALS1</ANIM_NAME>
-			        <USE_INTEGRATED_TRIM>True</USE_INTEGRATED_TRIM>
-		        </UseTemplate>
+
 			<UseTemplate Name="ASOBO_HANDLING_Spoilers_Template">
 				<ANIM_NAME_LEFT>spoiler_ground_l</ANIM_NAME_LEFT>
 				<ANIM_NAME_RIGHT>spoiler_ground_r</ANIM_NAME_RIGHT>
@@ -192,7 +187,7 @@
 			<UseTemplate Name="ASOBO_HANDLING_Flaperons_Template">
 				<ANIM_NAME_LEFT>l_flaperon_percent_key</ANIM_NAME_LEFT>
 				<ANIM_NAME_RIGHT>r_flaperon_percent_key</ANIM_NAME_RIGHT>
-				<IS_TAKING_OFF_CONDITION>0</IS_TAKING_OFF_CONDITION>
+
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_HANDLING_Slats_Template">
 				<ANIM_NAME_LEFT>l_slats</ANIM_NAME_LEFT>
@@ -213,7 +208,7 @@
 				<STILL_NODE_ID>PROP_1_STILL_LEFT</STILL_NODE_ID>
 				<STILL_2_NODE_ID>PROP_1_STILL_FROST</STILL_2_NODE_ID>
 				<SLOW_NODE_ID>PROP_1_SLOW_LEFT</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>PROP_1_BLURRED_LEFT</BLURRED_NODE_ID>
+				<BLURRED_NODE_ID>PROP_1_BLURRED_LEFT</BLURRED_NODE_ID>   
 			</UseTemplate>
 			<UseTemplate Name="Salty_747_ENGINE_Turbine_Template">
 				<ID>1</ID>
@@ -222,7 +217,7 @@
 				<STILL_NODE_ID>PROP_2_STILL_LEFT</STILL_NODE_ID>
 				<STILL_2_NODE_ID>PROP_2_STILL_FROST</STILL_2_NODE_ID>
 				<SLOW_NODE_ID>PROP_2_SLOW_LEFT</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>PROP_2_BLURRED_LEFT</BLURRED_NODE_ID>
+				<BLURRED_NODE_ID>PROP_2_BLURRED_LEFT</BLURRED_NODE_ID>    
 			</UseTemplate>
 			<UseTemplate Name="Salty_747_ENGINE_Turbine_Template">
 				<ID>3</ID>
@@ -231,7 +226,7 @@
 				<STILL_NODE_ID>PROP_3_STILL_RIGHT</STILL_NODE_ID>
 				<STILL_2_NODE_ID>PROP_3_STILL_FROST</STILL_2_NODE_ID>
 				<SLOW_NODE_ID>PROP_3_SLOW_RIGHT</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>PROP_3_BLURRED_RIGHT</BLURRED_NODE_ID>
+				<BLURRED_NODE_ID>PROP_3_BLURRED_RIGHT</BLURRED_NODE_ID>       
 			</UseTemplate>
 			<UseTemplate Name="Salty_747_ENGINE_Turbine_Template">
 				<ID>4</ID>
@@ -240,7 +235,7 @@
 				<STILL_NODE_ID>PROP_4_STILL_RIGHT</STILL_NODE_ID>
 				<STILL_2_NODE_ID>PROP_4_STILL_FROST</STILL_2_NODE_ID>
 				<SLOW_NODE_ID>PROP_4_SLOW_RIGHT</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>PROP_4_BLURRED_RIGHT</BLURRED_NODE_ID>
+				<BLURRED_NODE_ID>PROP_4_BLURRED_RIGHT</BLURRED_NODE_ID>     
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_ENGINE_Turbine_ReverseThrust_Template">
 				<ID>1</ID>
@@ -264,34 +259,17 @@
 				<ID>12</ID>
 				<ANIM_NAME>door_cargo</ANIM_NAME>
 			</UseTemplate>
-                        <UseTemplate Name="ASOBO_DOOR_InteractivePoint_Template">
-			        <ID>12</ID>
-			        <ANIM_NAME>CARGO_DOOR_LIVERYDECALS</ANIM_NAME>
-		        </UseTemplate>
-		        <UseTemplate Name="ASOBO_DOOR_InteractivePoint_Template">
-			        <ID>12</ID>
-			        <ANIM_NAME>CARGO_DOOR_PLACARDS</ANIM_NAME>
-	         	</UseTemplate>
-		        <UseTemplate Name="ASOBO_DOOR_InteractivePoint_Template">
-			        <ID>12</ID>
-			        <ANIM_NAME>CARGO_DOOR_HINGE</ANIM_NAME>
-		        </UseTemplate>
+
 			<UseTemplate Name="ASOBO_DOOR_InteractivePoint_Template">
 				<ID>10</ID>
 				<ANIM_NAME>door_passenger</ANIM_NAME>
 			</UseTemplate>
-                        <UseTemplate Name="ASOBO_DOOR_InteractivePoint_Template">
-			        <ID>10</ID>
-			        <ANIM_NAME>PASSENGER_DOOR_FRONT_LIVERYDECALS</ANIM_NAME>
-		        </UseTemplate>
+
 			<UseTemplate Name="ASOBO_DOOR_InteractivePoint_Template">
 				<ID>1</ID>
 				<ANIM_NAME>door_rear</ANIM_NAME>
 			</UseTemplate>
-                        <UseTemplate Name="ASOBO_DOOR_InteractivePoint_Template">
-			        <ID>1</ID>
-			        <ANIM_NAME>PASSENGER_DOOR_REAR_LIVERYDECALS</ANIM_NAME>
-		        </UseTemplate>
+
 			<UseTemplate Name="ASOBO_FuelHose_InteractivePoint_Template">
 				<ID>14</ID>
 				<NODE_ID>GROUND_FUELPIPE</NODE_ID>
@@ -305,16 +283,7 @@
 			<UseTemplate Name="ASOBO_747_8I_FX" />
 		</Component>
 
-                <Component ID="item1" Node="FUSELAGE_DETAIL_center">
-                        <UseTemplate Name="ASOBO_GT_Visibility">
-                        <VISIBILITY_CODE>0</VISIBILITY_CODE>
-                        </UseTemplate>
-                </Component>
-	        <Component ID="item2" Node="REGISTRATION_ID">
-                        <UseTemplate Name="ASOBO_GT_Visibility">
-                        <VISIBILITY_CODE>0</VISIBILITY_CODE>
-                        </UseTemplate>
-                </Component>
+
 
 	</Behaviors>
 </ModelInfo>

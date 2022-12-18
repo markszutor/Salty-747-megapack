@@ -8679,9 +8679,10 @@
 	 * "update" custom event is emitted through an instrument.
 	 */
 
-	const SimVarProvider = ({
-	  children
-	}) => {
+	const SimVarProvider = _ref => {
+	  let {
+	    children
+	  } = _ref;
 	  const listeners = react.exports.useRef({});
 	  const [cache, setCache] = react.exports.useState({});
 	  useUpdate(deltaTime => {
@@ -8908,7 +8909,7 @@
 
 	render( /*#__PURE__*/jsxRuntime.exports.jsx(EFB, {}));
 
-}());
+})();
 
     </script>
     <style id="EFB_BUNDLED_STYLE">

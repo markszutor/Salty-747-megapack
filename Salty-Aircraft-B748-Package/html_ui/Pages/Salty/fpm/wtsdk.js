@@ -2,9 +2,9 @@
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
     typeof define === 'function' && define.amd ? define(['exports'], factory) :
     (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.window = global.window || {}));
-}(this, (function (exports) { 'use strict';
+})(this, (function (exports) { 'use strict';
 
-    /*! *****************************************************************************
+    /******************************************************************************
     Copyright (c) Microsoft Corporation.
 
     Permission to use, copy, modify, and/or distribute this software for any
@@ -4046,7 +4046,7 @@
             const longitude = matchFullLatLong[4] == "W" ? 0 - parseInt(matchFullLatLong[5]) - (parseFloat(matchFullLatLong[6]) / 60)
                 : parseInt(matchFullLatLong[5]) + (parseFloat(matchFullLatLong[6]) / 60);
             const coordinates = new LatLongAlt(latitude, longitude, 0);
-            const ident = CJ4_FMC_PilotWaypointParser.procMatch(matchFullLatLong[7], matchFullLatLong[1] + matchFullLatLong[2].slice(0, 2) + matchFullLatLong[4] + matchFullLatLong[5] + matchFullLatLong[6].slice(0, 2));
+            const ident = CJ4_FMC_PilotWaypointParser.procMatch(matchFullLatLong[7], matchFullLatLong[1] + matchFullLatLong[2].slice(0, 2) + matchFullLatLong[4] + matchFullLatLong[5]);
             return WaypointBuilder.fromCoordinates(ident, coordinates, fmc);
         }
         static parseShorthandLatLongEnd(matchShorthandLatLongEnd, fmc) {
@@ -4235,4 +4235,4 @@
 
     Object.defineProperty(exports, '__esModule', { value: true });
 
-})));
+}));
