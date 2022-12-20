@@ -20,7 +20,7 @@ class FMC_Payload {
         const boardingRate = SaltyDataStore.get("747_CONFIG_BOARDING_RATE", "REAL");
 
         const desiredCargo = SimVar.GetSimVarValue("L:747_DESIRED_CARGO", "number");
-        const desiredCargoText = desiredCargo === 0 ? "□□.□" : `${(desiredCargo / 1000).toFixed(1)}{small}${unit}`;
+        const desiredCargoText = desiredCargo === 0 ? "□□□.□" : `${(desiredCargo / 1000).toFixed(1)}{small}${unit}`;
 
         const paxTarget = this.getPaxTarget();
         const currentPax = this.getCurrentPax();
