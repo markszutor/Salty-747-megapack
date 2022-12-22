@@ -48,10 +48,10 @@ class FMC_Payload {
             if (value) {
                 value = parseFloat(value);
 
-                if (SaltyUnits.userToKg(value) < 139.5) {
+                if (SaltyUnits.userToKg(value) < 139.6) {
                     value = Math.round(value * 1000);
                 }
-                if (value >= 0 && SaltyUnits.userToKg(value) <= 139525) {
+                if (value >= 0 && SaltyUnits.userToKg(value) <= 139600) {
                     SaltyBoarding.setTargetCargo(SaltyUnits.userToKg(value));
                     fmc.clearUserInput();
                 } else fmc.showErrorMessage("NOT ALLOWED");
