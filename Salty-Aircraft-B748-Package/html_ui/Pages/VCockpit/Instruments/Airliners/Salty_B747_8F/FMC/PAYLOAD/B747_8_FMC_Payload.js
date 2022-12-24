@@ -20,12 +20,12 @@ class FMC_Payload {
         const boardingRate = SaltyDataStore.get("747_CONFIG_BOARDING_RATE", "REAL");
 
         const desiredCargo = SimVar.GetSimVarValue("L:747_DESIRED_CARGO", "number");
-        const desiredCargoText = desiredCargo === 0 ? "□□□.□" : `${(desiredCargo / 1000).toFixed(1)}{small}${unit}`;
+        const desiredCargoText = desiredCargo === 0 ? "□□.□" : `${(desiredCargo / 1000).toFixed(1)}{small}${unit}`;
 
         const paxTarget = this.getPaxTarget();
         const currentPax = this.getCurrentPax();
 
-        const selectedPaxText = paxTarget === 0 ? "□□□/{small}0" : `${paxTarget}/{small}0`;
+        const selectedPaxText = paxTarget === 0 ? "□□□/{small}364" : `${paxTarget}/{small}364`;
 
         fmc.setTemplate([
             ["PAYLOAD"],
@@ -48,10 +48,10 @@ class FMC_Payload {
             if (value) {
                 value = parseFloat(value);
 
-                if (SaltyUnits.userToKg(value) < 139.6) {
+                if (SaltyUnits.userToKg(value) < 44) {
                     value = Math.round(value * 1000);
                 }
-                if (value >= 0 && SaltyUnits.userToKg(value) <= 139600) {
+                if (value >= 0 && SaltyUnits.userToKg(value) <= 43900) {
                     SaltyBoarding.setTargetCargo(SaltyUnits.userToKg(value));
                     fmc.clearUserInput();
                 } else fmc.showErrorMessage("NOT ALLOWED");
@@ -61,7 +61,7 @@ class FMC_Payload {
         fmc.onRightInput[1] = () => {
             let value = fmc.inOut;
             if (value) {
-                if (value >= 0 && value <= 0) {
+                if (value >= 0 && value <= 364) {
                     SaltyBoarding.setTargetPax(value);
                     fmc.clearUserInput();
                 } else fmc.showErrorMessage("NOT ALLOWED");

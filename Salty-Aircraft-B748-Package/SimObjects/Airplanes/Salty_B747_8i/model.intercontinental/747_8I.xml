@@ -54,112 +54,69 @@
 	<Behaviors>
 		<Include ModelBehaviorFile="Asobo\Common.xml"/>
 		<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
-		<Include ModelBehaviorFile="Salty\Index.xml"/>
-		<Include Path="Salty\Engines.xml"/>
 		<Include RelativeFile="747_8I_FX.xml"/>
-    
-    <Component ID="item" Node="FUSELAGE">
-      <UseTemplate Name="ASOBO_GT_Visibility">
-        <VISIBILITY_CODE>0</VISIBILITY_CODE>
-      </UseTemplate>
-    </Component>
-	<Component ID="item1" Node="FUSELAGE_DETAIL_center">
-      <UseTemplate Name="ASOBO_GT_Visibility">
-        <VISIBILITY_CODE>0</VISIBILITY_CODE>
-      </UseTemplate>
-    </Component>
-	<Component ID="item2" Node="BEACON_TOP2_center">
-      <UseTemplate Name="ASOBO_GT_Visibility">
-        <VISIBILITY_CODE>0</VISIBILITY_CODE>
-      </UseTemplate>
-    </Component>
-	<Component ID="item3" Node="REGISTRATION_ID">
-      <UseTemplate Name="ASOBO_GT_Visibility">
-        <VISIBILITY_CODE>0</VISIBILITY_CODE>
-      </UseTemplate>
-    </Component>
-	<Component ID="item4" Node="FUSELAGE_DECALS_center">
-      <UseTemplate Name="ASOBO_GT_Visibility">
-        <VISIBILITY_CODE>0</VISIBILITY_CODE>
-      </UseTemplate>
-    </Component>
-	<Component ID="item5" Node="DOOR_PASSENGER_REAR_DECAL">
-      <UseTemplate Name="ASOBO_GT_Visibility">
-        <VISIBILITY_CODE>0</VISIBILITY_CODE>
-      </UseTemplate>
-    </Component>
-	<Component ID="item6" Node="FUSELAGE_center">
-      <UseTemplate Name="ASOBO_GT_Visibility">
-        <VISIBILITY_CODE>0</VISIBILITY_CODE>
-      </UseTemplate>
-    </Component>
-	<Component ID="item7" Node="Hublots_Decals">
-      <UseTemplate Name="ASOBO_GT_Visibility">
-        <VISIBILITY_CODE>0</VISIBILITY_CODE>
-      </UseTemplate>
-    </Component>
 		<Component ID="GEARS">
 			<UseTemplate Name="ASOBO_GEAR_Center_Template">
 				<ANIM_NAME>c_gear</ANIM_NAME>
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_GEAR_Center_Template">
-			<ANIM_NAME>DOOR_GNOSE_LEFT_MMCLIVERY</ANIM_NAME>
+			<ANIM_NAME>DOOR_GNOSE_LEFT_LIVERYDECALS</ANIM_NAME>
 		</UseTemplate>
 		<UseTemplate Name="ASOBO_GEAR_Center_Template">
-			<ANIM_NAME>DOOR_GNOSE_RIGHT_MMCLIVERY</ANIM_NAME>
+			<ANIM_NAME>DOOR_GNOSE_RIGHT_LIVERYDECALS</ANIM_NAME>
 		</UseTemplate>
 		<UseTemplate Name="ASOBO_GEAR_Center_Template">
-			<ANIM_NAME>DOOR_GNOSE_BACK_LEFT_MMCLIVERY</ANIM_NAME>
+			<ANIM_NAME>DOOR_GNOSE_BACK_LEFT_LIVERYDECALS</ANIM_NAME>
 		</UseTemplate>
 		<UseTemplate Name="ASOBO_GEAR_Center_Template">
-			<ANIM_NAME>DOOR_GNOSE_BACK_RIGHT_MMCLIVERY</ANIM_NAME>
+			<ANIM_NAME>DOOR_GNOSE_BACK_RIGHT_LIVERYDECALS</ANIM_NAME>
 		</UseTemplate>
 			<UseTemplate Name="ASOBO_GEAR_Back_Template">
 				<ANIM_NAME>b_gear</ANIM_NAME>
 				<ID>1</ID>
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_GEAR_Back_Template">
-			<ANIM_NAME>DOOR_GWING1_LEFT_MMCLIVERY</ANIM_NAME>
+			<ANIM_NAME>DOOR_GWING1_LEFT_LIVERYDECALS</ANIM_NAME>
 			<ID>1</ID>
 		</UseTemplate>
 		<UseTemplate Name="ASOBO_GEAR_Back_Template">
-			<ANIM_NAME>DOOR_GWING2_LEFT_MMCLIVERY</ANIM_NAME>
+			<ANIM_NAME>DOOR_GWING2_LEFT_LIVERYDECALS</ANIM_NAME>
 			<ID>1</ID>
 		</UseTemplate>
 		<UseTemplate Name="ASOBO_GEAR_Back_Template">
-			<ANIM_NAME>DOOR_GWING1_RIGHT_MMCLIVERY</ANIM_NAME>
+			<ANIM_NAME>DOOR_GWING1_RIGHT_LIVERYDECALS</ANIM_NAME>
 			<ID>1</ID>
 		</UseTemplate>
 		<UseTemplate Name="ASOBO_GEAR_Back_Template">
-			<ANIM_NAME>DOOR_GWING2_RIGHT_MMCLIVERY</ANIM_NAME>
+			<ANIM_NAME>DOOR_GWING2_RIGHT_LIVERYDECALS</ANIM_NAME>
 			<ID>1</ID>
 		</UseTemplate>
 		<UseTemplate Name="ASOBO_GEAR_Left_Template">
 			<ANIM_NAME>l_gear</ANIM_NAME>
 		</UseTemplate>
 		<UseTemplate Name="ASOBO_GEAR_Left_Template">
-			<ANIM_NAME>DOOR_GWING3_LEFT_MMCLIVERY</ANIM_NAME>
+			<ANIM_NAME>DOOR_GWING3_LEFT_LIVERYDECALS</ANIM_NAME>
 		</UseTemplate>
 		<UseTemplate Name="ASOBO_GEAR_Left_Template">
-			<ANIM_NAME>DOOR_GWING4_LEFT_MMCLIVERY</ANIM_NAME>
+			<ANIM_NAME>DOOR_GWING4_LEFT_LIVERYDECALS</ANIM_NAME>
 		</UseTemplate>
 		<UseTemplate Name="ASOBO_GEAR_Left_Template">
-			<ANIM_NAME>DOOR_GWING5_LEFT_MMCLIVERY</ANIM_NAME>
+			<ANIM_NAME>DOOR_GWING5_LEFT_LIVERYDECALS</ANIM_NAME>
 		</UseTemplate>
 		<UseTemplate Name="ASOBO_GEAR_Left_Template">
-			<ANIM_NAME>DOOR_GWING6_LEFT_MMCLIVERY</ANIM_NAME>
+			<ANIM_NAME>DOOR_GWING6_LEFT_LIVERYDECALS</ANIM_NAME>
 		</UseTemplate>
 		<UseTemplate Name="ASOBO_GEAR_Right_Template">
-			<ANIM_NAME>DOOR_GWING3_RIGHT_MMCLIVERY</ANIM_NAME>
+			<ANIM_NAME>DOOR_GWING3_RIGHT_LIVERYDECALS</ANIM_NAME>
 		</UseTemplate>
 		<UseTemplate Name="ASOBO_GEAR_Right_Template">
-			<ANIM_NAME>DOOR_GWING4_RIGHT_MMCLIVERY</ANIM_NAME>
+			<ANIM_NAME>DOOR_GWING4_RIGHT_LIVERYDECALS</ANIM_NAME>
 		</UseTemplate>
 		<UseTemplate Name="ASOBO_GEAR_Right_Template">
-			<ANIM_NAME>DOOR_GWING5_RIGHT_MMCLIVERY</ANIM_NAME>
+			<ANIM_NAME>DOOR_GWING5_RIGHT_LIVERYDECALS</ANIM_NAME>
 		</UseTemplate>
 		<UseTemplate Name="ASOBO_GEAR_Right_Template">
-			<ANIM_NAME>DOOR_GWING6_RIGHT_MMCLIVERY</ANIM_NAME>
+			<ANIM_NAME>DOOR_GWING6_RIGHT_LIVERYDECALS</ANIM_NAME>
 		</UseTemplate>
 			<UseTemplate Name="ASOBO_GEAR_Left_Template">
 				<ANIM_NAME>l_gear</ANIM_NAME>
@@ -230,7 +187,7 @@
 				<USE_INTEGRATED_TRIM>True</USE_INTEGRATED_TRIM>
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_HANDLING_Rudder_Template">
-			<ANIM_NAME>RUDDER_MMCLIVERY1</ANIM_NAME>
+			<ANIM_NAME>RUDDER_LIVERYDECALS1</ANIM_NAME>
 			<USE_INTEGRATED_TRIM>True</USE_INTEGRATED_TRIM>
 		    </UseTemplate>
 			<UseTemplate Name="ASOBO_HANDLING_Spoilers_Template">
@@ -304,41 +261,41 @@
 			<DefaultTemplateParameters>
 				<STILL_NODE_ID_COUNT>2</STILL_NODE_ID_COUNT>
 			</DefaultTemplateParameters>
-			<UseTemplate Name="Salty_747_ENGINE_Turbine_Template">
+			<UseTemplate Name="ASOBO_ENGINE_Turbine_Template">
 				<ID>2</ID>
 				<ANIM_NODE_ID>N1_1_anim</ANIM_NODE_ID>
 				<ANIM_NAME>N1_1_anim</ANIM_NAME>
 				<STILL_NODE_ID>PROP_1_STILL_LEFT</STILL_NODE_ID>
 				<STILL_2_NODE_ID>PROP_1_STILL_FROST</STILL_2_NODE_ID>
 				<SLOW_NODE_ID>PROP_1_SLOW_LEFT</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>PROP_1_BLURRED_LEFT</BLURRED_NODE_ID>   
+				<BLURRED_NODE_ID>PROP_1_BLURRED_LEFT</BLURRED_NODE_ID>
 			</UseTemplate>
-			<UseTemplate Name="Salty_747_ENGINE_Turbine_Template">
+			<UseTemplate Name="ASOBO_ENGINE_Turbine_Template">
 				<ID>1</ID>
 				<ANIM_NODE_ID>N1_2_anim</ANIM_NODE_ID>
 				<ANIM_NAME>N1_2_anim</ANIM_NAME>
 				<STILL_NODE_ID>PROP_2_STILL_LEFT</STILL_NODE_ID>
 				<STILL_2_NODE_ID>PROP_2_STILL_FROST</STILL_2_NODE_ID>
 				<SLOW_NODE_ID>PROP_2_SLOW_LEFT</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>PROP_2_BLURRED_LEFT</BLURRED_NODE_ID>    
+				<BLURRED_NODE_ID>PROP_2_BLURRED_LEFT</BLURRED_NODE_ID>
 			</UseTemplate>
-			<UseTemplate Name="Salty_747_ENGINE_Turbine_Template">
+			<UseTemplate Name="ASOBO_ENGINE_Turbine_Template">
 				<ID>3</ID>
 				<ANIM_NODE_ID>N1_3_anim</ANIM_NODE_ID>
 				<ANIM_NAME>N1_3_anim</ANIM_NAME>
 				<STILL_NODE_ID>PROP_3_STILL_RIGHT</STILL_NODE_ID>
 				<STILL_2_NODE_ID>PROP_3_STILL_FROST</STILL_2_NODE_ID>
 				<SLOW_NODE_ID>PROP_3_SLOW_RIGHT</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>PROP_3_BLURRED_RIGHT</BLURRED_NODE_ID>       
+				<BLURRED_NODE_ID>PROP_3_BLURRED_RIGHT</BLURRED_NODE_ID>
 			</UseTemplate>
-			<UseTemplate Name="Salty_747_ENGINE_Turbine_Template">
+			<UseTemplate Name="ASOBO_ENGINE_Turbine_Template">
 				<ID>4</ID>
 				<ANIM_NODE_ID>N1_4_anim</ANIM_NODE_ID>
 				<ANIM_NAME>N1_4_anim</ANIM_NAME>
 				<STILL_NODE_ID>PROP_4_STILL_RIGHT</STILL_NODE_ID>
 				<STILL_2_NODE_ID>PROP_4_STILL_FROST</STILL_2_NODE_ID>
 				<SLOW_NODE_ID>PROP_4_SLOW_RIGHT</SLOW_NODE_ID>
-				<BLURRED_NODE_ID>PROP_4_BLURRED_RIGHT</BLURRED_NODE_ID>     
+				<BLURRED_NODE_ID>PROP_4_BLURRED_RIGHT</BLURRED_NODE_ID>
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_ENGINE_Turbine_ReverseThrust_Template">
 				<ID>1</ID>
@@ -364,7 +321,7 @@
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_DOOR_InteractivePoint_Template">
 			    <ID>12</ID>
-			<ANIM_NAME>CARGO_DOOR_MMCLIVERY</ANIM_NAME>
+			<ANIM_NAME>CARGO_DOOR_LIVERYDECALS</ANIM_NAME>
 		    </UseTemplate>
 			<UseTemplate Name="ASOBO_DOOR_InteractivePoint_Template">
 				<ID>10</ID>
@@ -372,12 +329,16 @@
 			</UseTemplate>
 			<UseTemplate Name="ASOBO_DOOR_InteractivePoint_Template">
 			    <ID>10</ID>
-			<ANIM_NAME>PASSENGER_DOOR_FRONT_MMCLIVERY</ANIM_NAME>
+			<ANIM_NAME>PASSENGER_DOOR_FRONT_LIVERYDECALS</ANIM_NAME>
 		    </UseTemplate>
 			<UseTemplate Name="ASOBO_DOOR_InteractivePoint_Template">
 				<ID>1</ID>
 				<ANIM_NAME>door_rear</ANIM_NAME>
 			</UseTemplate>
+			<UseTemplate Name="ASOBO_DOOR_InteractivePoint_Template">
+			    <ID>1</ID>
+			<ANIM_NAME>PASSENGER_DOOR_REAR_LIVERYDECALS</ANIM_NAME>
+		    </UseTemplate>
 			<UseTemplate Name="ASOBO_FuelHose_InteractivePoint_Template">
 				<ID>14</ID>
 				<NODE_ID>GROUND_FUELPIPE</NODE_ID>
