@@ -72,7 +72,7 @@ class SaltyPayloadConstructor {
         this.cargoStations = {
             fwdBag: {
                 name: 'FORWARD_BAGGAGE',
-                weight: 69840,
+                weight: 22225,
                 load: 0,
                 stationIndex: 7 + 1,
                 position: -28.56284,
@@ -81,7 +81,7 @@ class SaltyPayloadConstructor {
             },
             aftBag: {
                 name: 'REAR_BAGGAGE',
-                weight: 58480,
+                weight: 15875,
                 load: 0,
                 stationIndex: 8 + 1,
                 position: -138.077047,
@@ -90,7 +90,7 @@ class SaltyPayloadConstructor {
             },
             bulkBag: {
                 name: 'BULK_BAGGAGE',
-                weight: 11280,
+                weight: 5800,
                 load: 0,
                 stationIndex: 9 + 1,
                 position: -138.077047,
@@ -118,7 +118,7 @@ function getZfwcg() {
     const leMacZ = -1.47; // Value from Debug Weight
     const macSize = 36.68; // Value from Debug Aircraft Sim Tunning
 
-    const emptyWeight = 434600 * 0.453592; // Value from flight_model.cfg to kgs
+    const emptyWeight = 489656 * 0.453592; // Value from flight_model.cfg to kgs
     const emptyPosition = -98; // Value from flight_model.cfg
     const emptyMoment = emptyPosition * emptyWeight;
 
@@ -170,6 +170,6 @@ function getTotalPayload() {
 
 /* Get ZFW */
 function getZfw() {
-    const emptyWeight = 434600 * 0.453592; // Value from flight_model.cfg to kgs
+    const emptyWeight = 489656 * 0.453592; // Value from flight_model.cfg to kgs
     return emptyWeight + getTotalPayload();
 }

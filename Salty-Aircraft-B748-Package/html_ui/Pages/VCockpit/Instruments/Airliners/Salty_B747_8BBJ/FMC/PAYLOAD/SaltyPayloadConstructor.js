@@ -3,68 +3,68 @@ class SaltyPayloadConstructor {
         this.paxStations = {
             businessUpper: {
                 name: 'ZONE UD',
-                seats: 6,
-                weight: 624,
+                seats: 32,
+                weight: 3328,
                 pax: 0,
                 paxTarget: 0,
                 stationIndex: 1 + 1,
                 position: -35.400535,
-                seatsRange: [1, 6],
+                seatsRange: [1, 32],
                 simVar: "PAYLOAD STATION WEIGHT:2"
             },
             firstClass: {
                 name: 'ZONE A',
-                seats: 6,
-                weight: 624,
+                seats: 8,
+                weight: 832,
                 pax: 0,
                 paxTarget: 0,
                 stationIndex: 2 + 1,
                 position: 0.04913,
-                seatsRange: [7, 12],
+                seatsRange: [33, 40],
                 simVar: "PAYLOAD STATION WEIGHT:3"
             },
             businessMain: {
                 name: 'ZONE B',
-                seats: 6,
-                weight: 624,
+                seats: 48,
+                weight: 5400,
                 pax: 0,
                 paxTarget: 0,
                 stationIndex: 3 + 1,
                 position: -44.383345,
-                seatsRange: [13, 18],
+                seatsRange: [41, 88],
                 simVar: "PAYLOAD STATION WEIGHT:4"
             },
             premiumEconomy: {
                 name: 'ZONE C',
-                seats: 6,
-                weight: 624,
+                seats: 32,
+                weight: 3328,
                 pax: 0,
                 paxTarget: 0,
                 stationIndex: 4 + 1,
                 position: -100.362841,
-                seatsRange: [19, 24],
+                seatsRange: [89, 120],
                 simVar: "PAYLOAD STATION WEIGHT:5"
             },
             forwardEconomy: {
                 name: 'ZONE D',
-                seats: 6,
-                weight: 624,
+                seats: 36,
+                weight: 3744,
                 pax: 0,
                 paxTarget: 0,
                 stationIndex: 5 + 1,
                 position: -81.274814,
-                seatsRange: [25, 30],
+                seatsRange: [121, 156],
                 simVar: "PAYLOAD STATION WEIGHT:6"
             },
             rearEconomy: {
                 name: 'ZONE E',
-                seats: 6,
-                weight: 624,
+                seats: 208,
+                weight: 21632,
                 pax: 0,
                 paxTarget: 0,
                 stationIndex: 6 + 1,
                 position: -148.319361,
-                seatsRange: [31, 36],
+                seatsRange: [157, 364],
                 simVar: "PAYLOAD STATION WEIGHT:7"
             },
         };
@@ -105,7 +105,7 @@ const payloadConstruct = new SaltyPayloadConstructor();
 const paxStations = payloadConstruct.paxStations;
 const cargoStations = payloadConstruct.cargoStations;
 
-const MAX_SEAT_AVAILABLE = 36;
+const MAX_SEAT_AVAILABLE = 364;
 const PAX_WEIGHT = 84;
 const BAG_WEIGHT = 20;
 
