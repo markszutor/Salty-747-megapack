@@ -352,33 +352,43 @@
     },
     {
       "path": "html_ui/Pages/Salty/WT/Autopilot/AutopilotMath.js",
-      "size": 9673,
-      "date": 132881011295045918
+      "size": 9992,
+      "date": 133141342739040536
     },
     {
       "path": "html_ui/Pages/Salty/WT/Autopilot/HoldsDirector.js",
-      "size": 21694,
-      "date": 132881011295055913
+      "size": 23808,
+      "date": 133141342739050528
     },
     {
       "path": "html_ui/Pages/Salty/WT/Autopilot/LNavDirector.js",
-      "size": 28552,
-      "date": 132881011295055913
+      "size": 28139,
+      "date": 133141342739050528
     },
     {
       "path": "html_ui/Pages/Salty/WT/Autopilot/LocDirector.js",
-      "size": 4313,
-      "date": 132881011295065908
+      "size": 3575,
+      "date": 133141342739060523
+    },
+    {
+      "path": "html_ui/Pages/Salty/WT/Autopilot/NavToNavTransfer.js",
+      "size": 4789,
+      "date": 133141342739060523
+    },
+    {
+      "path": "html_ui/Pages/Salty/WT/Autopilot/SaltyNavModeSelector.js",
+      "size": 72859,
+      "date": 133141342739070520
     },
     {
       "path": "html_ui/Pages/Salty/WT/Autopilot/WT_BaseVnav.js",
-      "size": 42352,
-      "date": 132881011295075902
+      "size": 47208,
+      "date": 133141342739080526
     },
     {
       "path": "html_ui/Pages/Salty/WT/Autopilot/WT_VnavAutopilot.js",
-      "size": 56371,
-      "date": 132881011295085892
+      "size": 70752,
+      "date": 133141342739090507
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/74S/EFB/template.html",
@@ -632,8 +642,8 @@
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/Salty_B747_8/FMC/B747_8_FMC.html",
-      "size": 14571,
-      "date": 133161925582437117
+      "size": 14769,
+      "date": 133141340541792401
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/Salty_B747_8/FMC/B747_8_FMC_ApproachPage.js",
@@ -1517,8 +1527,8 @@
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/Salty_B747_8BBJ/FMC/B747_8_FMC.html",
-      "size": 14856,
-      "date": 133161926119365809
+      "size": 15056,
+      "date": 133158690317129231
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/Salty_B747_8BBJ/FMC/PAYLOAD/B747_8_FMC_Fuel.js",
@@ -1557,8 +1567,8 @@
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/Salty_B747_8F/FMC/B747_8_FMC.html",
-      "size": 14880,
-      "date": 133161926363920938
+      "size": 15080,
+      "date": 133158689802524189
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/Salty_B747_8F/FMC/PAYLOAD/B747_8_FMC_Fuel.js",
@@ -1642,8 +1652,8 @@
     },
     {
       "path": "SimObjects/Airplanes/Salty_B747_8f/aircraft.cfg",
-      "size": 4166,
-      "date": 133158695008329202
+      "size": 4161,
+      "date": 133157952313552514
     },
     {
       "path": "SimObjects/Airplanes/Salty_B747_8f/aircraft.loc",
@@ -2002,8 +2012,8 @@
     },
     {
       "path": "SimObjects/Airplanes/Salty_B747_8i/aircraft.cfg",
-      "size": 6104,
-      "date": 133158694859859284
+      "size": 6126,
+      "date": 133157952313522535
     },
     {
       "path": "SimObjects/Airplanes/Salty_B747_8i/aircraft.loc",
@@ -2247,8 +2257,8 @@
     },
     {
       "path": "SimObjects/Airplanes/Salty_B747_8i/model.intercontinental/747_8I.xml",
-      "size": 16313,
-      "date": 133158732969259225
+      "size": 15321,
+      "date": 133141342716167504
     },
     {
       "path": "SimObjects/Airplanes/Salty_B747_8i/model.intercontinental/747_8I_LOD00.bin",
@@ -3933,7 +3943,7 @@
     {
       "path": "SimObjects/Airplanes/Salty_B747_8_BBJ/aircraft.cfg",
       "size": 4186,
-      "date": 133158843154940012
+      "date": 133157952313562509
     },
     {
       "path": "SimObjects/Airplanes/Salty_B747_8_BBJ/aircraft.loc",
