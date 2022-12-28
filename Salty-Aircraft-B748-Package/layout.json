@@ -622,8 +622,8 @@
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/B748/EICAS/Pages/B747_8_UpperEICAS.html",
-      "size": 7211,
-      "date": 133167311570607095
+      "size": 7206,
+      "date": 133167330209377877
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/B748/EICAS/Pages/B747_8_UpperEICAS.js",
@@ -1057,8 +1057,8 @@
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/B748/MFD/B747_8_MFD.html",
-      "size": 12784,
-      "date": 133167322606557930
+      "size": 12779,
+      "date": 133167330009707864
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/B748/MFD/B747_8_MFD.js",
@@ -1067,8 +1067,8 @@
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/B748/MFD/mapConfig.json",
-      "size": 3353,
-      "date": 133167311573797883
+      "size": 3348,
+      "date": 133167329540047362
     },
     {
       "path": "html_ui/Pages/VCockpit/Instruments/Airliners/B748/MFD/MapInstrument.css",
