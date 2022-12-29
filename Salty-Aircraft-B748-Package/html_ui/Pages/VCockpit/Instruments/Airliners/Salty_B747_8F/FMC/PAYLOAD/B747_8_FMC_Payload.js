@@ -25,7 +25,7 @@ class FMC_Payload {
         const paxTarget = this.getPaxTarget();
         const currentPax = this.getCurrentPax();
 
-        const selectedPaxText = paxTarget === 0 ? "□□□/{small}364" : `${paxTarget}/{small}364`;
+        const selectedPaxText = paxTarget === 0 ? "□□□/{small}0" : `${paxTarget}/{small}0`;
 
         fmc.setTemplate([
             ["PAYLOAD"],
@@ -48,10 +48,10 @@ class FMC_Payload {
             if (value) {
                 value = parseFloat(value);
 
-                if (SaltyUnits.userToKg(value) < 44) {
+                if (SaltyUnits.userToKg(value) < 136) {
                     value = Math.round(value * 1000);
                 }
-                if (value >= 0 && SaltyUnits.userToKg(value) <= 43900) {
+                if (value >= 0 && SaltyUnits.userToKg(value) <= 136000) {
                     SaltyBoarding.setTargetCargo(SaltyUnits.userToKg(value));
                     fmc.clearUserInput();
                 } else fmc.showErrorMessage("NOT ALLOWED");
@@ -61,7 +61,7 @@ class FMC_Payload {
         fmc.onRightInput[1] = () => {
             let value = fmc.inOut;
             if (value) {
-                if (value >= 0 && value <= 364) {
+                if (value >= 0 && value <= 0) {
                     SaltyBoarding.setTargetPax(value);
                     fmc.clearUserInput();
                 } else fmc.showErrorMessage("NOT ALLOWED");
@@ -88,8 +88,8 @@ class FMC_Payload {
                     Coherent.call("PLAY_INSTRUMENT_SOUND", "uplink_chime");
 
                     SaltyBoarding.setTargetCargo(SaltyUnits.userToKg(parseInt(fmc.simbrief.cargo)));
-                    if (fmc.simbrief.paxCount > 364) {
-                        SaltyBoarding.setTargetPax(364);
+                    if (fmc.simbrief.paxCount > 0) {
+                        SaltyBoarding.setTargetPax(0);
                         fmc.showErrorMessage("USE CUSTOM SB AIRFRAME");
                     } else {
                         SaltyBoarding.setTargetPax(fmc.simbrief.paxCount);

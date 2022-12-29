@@ -118,7 +118,7 @@ function getZfwcg() {
     const leMacZ = -1.47; // Value from Debug Weight
     const macSize = 36.68; // Value from Debug Aircraft Sim Tunning
 
-    const emptyWeight = 489656 * 0.453592; // Value from flight_model.cfg to kgs
+    const emptyWeight = 434600 * 0.453592; // Value from flight_model.cfg to kgs
     const emptyPosition = -98; // Value from flight_model.cfg
     const emptyMoment = emptyPosition * emptyWeight;
 
@@ -170,6 +170,6 @@ function getTotalPayload() {
 
 /* Get ZFW */
 function getZfw() {
-    const emptyWeight = 489656 * 0.453592; // Value from flight_model.cfg to kgs
+    const emptyWeight = 434600 * 0.453592; // Value from flight_model.cfg to kgs
     return emptyWeight + getTotalPayload();
 }

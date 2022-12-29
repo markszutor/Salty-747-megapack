@@ -49,7 +49,7 @@ class SaltyBoarding {
     static async setTargetCargo(cargo) {
         SimVar.SetSimVarValue("L:747_DESIRED_CARGO", "number", SaltyUnits.kgToUser(cargo));
 
-        const maxLoadInCargoHold = 43900; // from flight_model.cfg
+        const maxLoadInCargoHold = 136000; // from flight_model.cfg
         const loadableCargoWeight = cargo > maxLoadInCargoHold ? maxLoadInCargoHold : cargo;
 
         let remainingWeight = loadableCargoWeight;
