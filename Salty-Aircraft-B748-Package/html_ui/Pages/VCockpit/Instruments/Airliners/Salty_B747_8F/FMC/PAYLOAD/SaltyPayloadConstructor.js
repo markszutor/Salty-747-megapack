@@ -72,7 +72,7 @@ class SaltyPayloadConstructor {
         this.cargoStations = {
             fwdBag: {
                 name: 'FORWARD_BAGGAGE',
-                weight: 22225,
+                weight: 60000,
                 load: 0,
                 stationIndex: 7 + 1,
                 position: -28.56284,
@@ -81,7 +81,7 @@ class SaltyPayloadConstructor {
             },
             aftBag: {
                 name: 'REAR_BAGGAGE',
-                weight: 15875,
+                weight: 60000,
                 load: 0,
                 stationIndex: 8 + 1,
                 position: -138.077047,
@@ -90,7 +90,7 @@ class SaltyPayloadConstructor {
             },
             bulkBag: {
                 name: 'BULK_BAGGAGE',
-                weight: 5800,
+                weight: 20000,
                 load: 0,
                 stationIndex: 9 + 1,
                 position: -138.077047,
